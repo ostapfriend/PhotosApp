@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import globalStyles from '../globalStyles';
 
 import {Photo} from "../components/Photo";

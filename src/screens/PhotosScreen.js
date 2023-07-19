@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View , StyleSheet, FlatList, TextInput } from 'react-native';
+import { View , FlatList } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchPhotos, likeDislikePhoto } from '../redux/actions';
 import { Photo } from "../components/Photo";
