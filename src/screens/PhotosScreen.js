@@ -3,7 +3,7 @@ import { View , FlatList } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchPhotos, likeDislikePhoto } from '../redux/actions';
 import { Photo } from "../components/Photo";
-import CustomTextInput from "../components/CustomTextInput";
+import { CustomTextInput } from "../components/CustomTextInput";
 import globalStyles from '../globalStyles';
 import { Ionicons } from "@expo/vector-icons";
 
