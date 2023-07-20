@@ -1,9 +1,8 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { View, Text, FlatList } from 'react-native';
+import { Photo } from "../components/Photo";
 import globalStyles from '../globalStyles';
-
-import {Photo} from "../components/Photo";
 
 const FavoritesScreen = () => {
   const favoritePhotos = useSelector((state) =>
