@@ -12,7 +12,6 @@ const Tab = createBottomTabNavigator();
 const App = () => {
     return (
         <Provider store={store}>
-            {/* Use PersistGate to wrap your App */}
             <PersistGate loading={null} persistor={persistor}>
                 <NavigationContainer>
                     <AppNavigator />
