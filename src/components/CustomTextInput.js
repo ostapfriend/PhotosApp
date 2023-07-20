@@ -1,6 +1,6 @@
 import {View, TextInput, StyleSheet} from 'react-native';
 
-const CustomTextInput = ({ value, onChangeText }) => {
+export const CustomTextInput = ({ value, onChangeText }) => {
     return (
         <View style={styles.searchBarContainer}>
             <TextInput
@@ -31,5 +31,3 @@ const styles = StyleSheet.create({
         width: "100%",
     },
 });
-
-export default CustomTextInput;
