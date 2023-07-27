@@ -1,5 +1,5 @@
-# PhotosApp
+It's shorted mobile application in React Native, where we use Redux.
 
-Thank you for such a wonderful test task.
+Here you can like some titles, and add in favourites basket
 
-P.S If I had more time, I would write it all on TypeScript and Redux Toolkit
+P.S -> It's my first application in this technology
